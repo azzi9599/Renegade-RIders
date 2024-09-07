@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Our Sales Team</title>
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translatey(202px);
+              
+            }
+            to {
+                opacity: 1;
+                transform: translatey(0);
+            }
+        }
+        nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 75px;
+  background-color:  #FFAF45;
+  font-size: 1.4rem;
+  
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+nav ul li a:hover{
+  color:rgb(0, 0, 0);
+  opacity: 80%;
+}
+.left, .right{
+  font-size: 1.5rem;
+}
+.left{
+    font-size: 1.8rem;
+}
+nav a{
+    text-decoration: none;
+   color:  antiquewhite;
+    
+}
+nav a:hover{
+    color:black;
+    opacity: 80%;
+}
+.maincontainer{
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color:rgba(0,0,0,0.2);
+width: 70%;
+border: 2px solid  #FFAF45;
+margin-left: 16%;
+border-radius: 25px;
+padding-bottom: 30px;
+margin-top: 2%;
+margin-bottom: 2%;
+    
+}
+        body {
+            background-image: url("https://images.pexels.com/photos/5803622/pexels-photo-5803622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            height: 100vh;
+            animation: fadeIn 1.7s ease;
+        }
+
+        .contact-form {
+           
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 5px;
+            
+            width: 700px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .contact-form h2, .contact-form p {
+            text-align: center;
+        }
+
+        .contact-form h2 {
+            font-size: 3rem;
+            color: #ffffff;
+        }
+
+        .contact-form p {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #fbfbfb;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .contact-form input, .contact-form select, .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left" id="left_logo"><a href="home.html"> Renegade Riders</a>
+    
+        </div>
+    
+        <div class="right menu-links">
+          <ul>
+            <li><a href="home.html">HOME</a>
+    
+            </li>
+            <li><a href="#tripspage">TRIPS</a>
+    
+            </li>
+            <li><a href="#aboutpage">ABOUT</a>
+    
+            </li>
+            <li><a href="form.html">CONTACT US</a>
+            </li>
+            <li><a href="">ACCOUNT</a>
+            </li>
+          </ul>
+    
+        </div>
+      </nav>
+    
+    <div class="maincontainer">
+    <div class="contact-form">
+        <h2>Contact our team</h2>
+        <p>Our team is happy to answer your sales questions. Fill out the form and we'll be in touch as soon as possible.</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="first-name" name="first-name">
+
+           
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <label for="number">Phone Number:</label>
+          <input type="tel" id="telnumber" name="number"   required>
+
+            <label for="website">Tell us how you Want your Ride</label>
+            <input type="text" id="about" name="about">
+
+            <label for="State">State</label>
+            <select id="State" name="country">
+                <option value="state">Delhi</option>
+                <option value="state">Mumbai</option>
+                <option value="">Dehradun</option>
+                <option value="state">Pune</option>
+                <option value="state">Himachal</option>
+                <option value="state">Madhya Pradesh</option>
+                <option value="state">Haryana</option>
+
+                <option value="state">Gujrat</option>
+
+
+
+                <!-- Add other countries as needed -->
+            </select>
+
+          
+
+            <label for="anything-else">Anything else?</label>
+            <textarea id="anything-else" name="anything-else" rows="4"></textarea>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</div>
+ 
+
+</body>
+</html>

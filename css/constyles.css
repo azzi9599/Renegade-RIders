@@ -1,0 +1,89 @@
+
+.form-container {
+    margin-left: 13%;
+    width: 70%;
+    padding: 40px;
+    border: 1px solid #333;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-bottom: 5%;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header hr {
+    width: 90px;
+    border: 2px solid #FFAF45;
+    margin: 10px 0 30px 340px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.row input,
+.row textarea {
+    flex: 1;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #efe9e1;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+.row input:last-child,
+.row textarea {
+    margin-right: 0;
+}
+
+.row textarea {
+    height: 150px;
+    resize: none;
+}
+
+#but{
+    padding: 15px;
+    background-color:#FFAF45;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#but:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -60px; /* Adjusted to prevent overlapping */
+    top: 20px;
+    gap: 20px; /* Added to create space between icons */
+}
+
+.social a {
+    margin-bottom: 10px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}

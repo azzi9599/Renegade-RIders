@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+}html{
+  scroll-behavior:smooth;
+}
+body{
+    background-color:#fff;
+    
+    font-family:poppins;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
+/********  NAVIGATION SECTION   ****/
+nav{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 75px;
+  background-color:  #FFAF45;
+  font-size: 1.4rem;
+  
+  
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li{
+  list-style: none;
+  margin: 0 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+nav ul li a:hover{
+  color:rgb(0, 0, 0);
+  opacity: 80%;
+}
+.left, .right{
+  font-size: 1.5rem;
+}
+.left{
+    font-size: 1.8rem;
+}
+nav a{
+    text-decoration: none;
+   color:  antiquewhite;
+    
+}
+nav a:hover{
+    color:black;
+    opacity: 80%;
+}
+
+/***********  FIRST PAGE ***********/
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translatex(-302px);
+     
+  }
+  to {
+      opacity: 1;
+      transform: translatex(0);
+     
+  }
+}
+
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 1.7s ease-in-out;
+
+  }
+  .firstsection >div {
+    width: 40%;
+  }
+  .leftsection{
+    font-size: 4rem;
+    font-weight: 500;
+    
+  }
+ .rightsection img{
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  
+
+ }
+ .rightsection{
+  animation: rightimg 1.7s ease-in-out;
+ }
+ 
+@keyframes rightimg {
+  from {
+      opacity: 0;
+      transform: translatex(802px);
+     
+  }
+  to {
+      opacity: 1;
+      transform: translatex(0);
+     
+  }
+}
+
+  
+ 
+ 
+
+  #element{
+    color: #FFAF45;
+  }
+ .page_two{
+    display: flex;
+
+ }
+ .description h2{
+    margin-top: 130px;
+    font-weight: 500;
+    font-size: 1.5rem;
+ }
+ #onlyheading{
+  color: #FFAF45;
+ }
+ .aboutus h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+
+ }
+ #uscolor{
+    color: #FFAF45;
+ }
+ .tripsection h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+ }
+
+ 
+.hrline{
+height: 4px;
+background-color: #FFAF45;
+border: 0;
+}
+.containertour{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  
+
+
+
+.grow h2{
+    text-align: center;
+    margin: 10 0 0 0 ;
+    color: #000000;
+}
+.grow a{
+  text-decoration: none;
+
+}
+.grow{
+  transition: 0.5s ease ;
+    overflow: hidden;
+}
+
+.grow img{
+  
+    width:440px;
+    height: 300px;
+    border-radius: 15px;
+margin: 0 0 0 15px;
+    transition: 0.5s ease ;
+    overflow: hidden;
+    }
+    .grow:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    overflow: hidden;
+    
+    }
+    
+.centerdiv{
+background-image: url("https://thumbs.dreamstime.com/z/horizontal-banner-silhouette-mountain-bike-rider-meadow-forrest-biker-trees-grass-magical-misty-land-landscape-fog-blue-225954710.jpg?w=992");
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh  ;
+  background-size: 100% 200%;
+background-size: cover;
+  animation: AnimationName 18s ease infinite;}
+
+  .anicolor{
+    color: #000000;
+    font-weight: 500;
+    font-size: large;
+    background-size: 100% 200%;
+    object-fit:fill;
+
+    backdrop-filter: blur(10px);
+background-image: url("https://thumbs.dreamstime.com/z/horizontal-banner-silhouette-mountain-bike-rider-meadow-forrest-biker-trees-grass-magical-misty-land-landscape-fog-blue-225954710.jpg?w=992");
+
+  }
+
+@keyframes AnimationName {
+  0%{background-position:0% 88%}
+  50%{background-position:100% 13%}
+  100%{background-position:0% 88%}
+}
+
+.centerdiv div{
+  height: 400px;
+  width: 300px;
+  backdrop-filter: blur(10px);
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.centerdiv img{
+  height: 100px;
+}
+.page3{
+  display: flex;
+  
+}
+.image3{
+  margin: 0 30px;
+}
+.mapdescription h2{
+  margin: 80px ;
+  font-weight: 500;
+    font-size: 1.5rem;
+    
+}
+
+.my-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Add a class to the element to trigger the animation */
+.my-element.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+.button1 {background-color: #FFAF45;} /* Green */
+.button {
+  border: none;
+  color: white;
+  padding: 25px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px 0 ;
+  cursor: pointer;
+}
+
+.newby{
+  margin-top: 50px;
+  color: whitesmoke;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  background-image: url("../images/trips/ladakh.jpg");
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease ;
+    overflow: hidden;
+  
+}
+.newby:hover{
+  opacity: 0.9;
+}
+.ladakhdesc{
+  margin-top: 10%;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+  font-size: 1.5rem;
+  
+}
+.ladakhbtn{
+  padding: 18px 28px;
+  background-color: #FFAF45;
+  color: #f2f2f2;
+  text-decoration: none;
+  border: none;
+
+}
+.ladakhbtn:hover{
+  transform: scale(1.1);
+  transition: .5s all ease;
+}
+
+/************ LOGIN SIGNUP **************/
+
+
+
+.logpage
+{
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex; 
+}
+.backbox{  
+  background-color: #404040;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(0,-50%);
+  top:50%;
+  display: inline-flex;
+}
+
+.frontbox{
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+  z-index: 10;
+  position: absolute;
+  right:0;
+  margin-right: 3%;
+  margin-left: 3%;
+  transition: right .8s ease-in-out;
+}
+
+.moving{
+  right:45%;
+}
+
+.loginMsg, .signupMsg{
+  width: 50%;
+  height: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.loginMsg .title,
+.signupMsg .title{
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.loginMsg p,
+.signupMsg p {
+  font-weight: 100;
+}
+
+.textcontent{
+  color:white;
+  margin-top:65px;
+  margin-left: 12%;
+}
+
+.loginMsg button,
+.signupMsg button {
+  background-color: #404040;
+  border: 2px solid white;
+  border-radius: 10px;
+  color:white;
+  font-size: 12px;
+  box-sizing: content-box;
+  font-weight: 300;
+  padding:10px;
+  margin-top: 20px;
+}
+
+/* front box content*/
+.login, .signup{
+  padding: 20px;
+  text-align: center;
+}
+
+.login h2,
+.signup h2 {
+  color: #35B729;
+  font-size:22px;
+}
+
+.inputbox{
+  margin-top:30px; 
+}
+.login input, 
+.signup input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  border: none;
+  margin-bottom:20px;
+  font-size: 12px;
+}
+
+.login button,
+.signup button{
+  background-color: #35B729;
+  border: none;
+  color:white;
+  font-size: 12px;
+  font-weight: 300;
+  box-sizing: content-box;
+  padding:10px;
+  border-radius: 10px;
+  width: 60px;
+  position: absolute;
+  right:30px;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+/* Fade In & Out*/
+.login p {
+  cursor: pointer;
+  color:#404040;
+  font-size:15px;
+}
+
+.loginMsg, .signupMsg{
+  /*opacity: 1;*/
+  transition: opacity .8s ease-in-out;
+}
+
+.visibility{
+  opacity: 0;
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********* FOOTER SECTION *******/
+
+footer {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  color: #333;
+}
+
+.containerfooter {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.footer-col h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.live-chat {
+  display: inline-block;
+  margin-top: 15px;
+  color: #999;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.live-chat i {
+  margin-right: 5px;
+}
+
+.footer-col form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-col input[type="email"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.footer-col button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #e2e2e2;
+}
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+

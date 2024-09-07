@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="css/constyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .tour-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card {
+        background-color: #fff;
+        width: 30%;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .card-details {
+        padding: 15px;
+        text-align: center;
+    }
+    .card-details h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .card-details p {
+        color: #888;
+        margin: 5px 0;
+    }
+    .card-details .price {
+        color: #e74c3c;
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .view-details {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #e74c3c;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    .view-details:hover {
+        background-color: #c0392b;
+    }
+</style>
+</head>
+
+<body>
+    
+        <nav>
+          <div class="left" id="left_logo"><a href="home.html"> Renegade Riders</a>
+      
+          </div>
+      
+          <div class="right menu-links">
+            <ul>
+              <li><a href="home.html">HOME</a>
+      
+              </li>
+              <li><a href="#tripspage">TRIPS</a>
+      
+              </li>
+              <li><a href="#aboutpage">ABOUT</a>
+      
+              </li>
+              <li><a href="Contactus.html">CONTACT US</a>
+              </li>
+              <li><a href="#over">OVERVIEW</a>
+              </li>
+            </ul>
+      
+          </div>
+        </nav>
+      
+
+      <main>
+        <section class="firstsection">
+          <div class="leftsection">
+        Join our Bike Riders Comuunity 
+        
+      
+        <span id="element"></span>
+        <br>
+        <span> <a href="form.html"><button class="button button1">Register</button></a>
+          
+        </span>
+        <span> <a href="https://chat.whatsapp.com/DIvV6XnditX8OiDOpJ26kX"><button class="button button1">Join Us</button></a>
+          
+        </span>
+          </div>
+          <div class="rightsection rightsection.show">
+        
+        <img src="images/logobike.png"  >
+          </div>
+        
+        </section>
+        </main>
+
+<br><hr class="hrline">
+
+
+
+<h1 style="padding: 4% 0 0 0;">TOP SELLING GROUP TOURS!</h1>
+<div class="container">
+  
+  
+  <div class="tour-cards">
+      <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.0BHLmXHDz89e_j1aj2l-jgHaFj?rs=1&pid=ImgDetMain" alt="Meghalaya with Kaziranga">
+          <div class="card-details">
+              <h3>GOA With Kaziranga 6N/7D Road Trip</h3>
+              <p>6 Nights 7 Days &#8226; Guwahati, Assam</p>
+              <p class="price">&#8377; 28,999</p>
+              <a href="Goa.html" class="view-details">VIEW DETAILS</a>
+          </div>
+      </div>
+      <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.d9LG1Rweqx4tLXFcOQ23_wHaE8?rs=1&pid=ImgDetMain" alt="Leh Ladakh Bike Trip">
+          <div class="card-details">
+              <h3>Leh Ladakh Bike Trip 7N/8D With Umling La</h3>
+              <p>7 Nights 8 Days &#8226; Umling La</p>
+              <p class="price">&#8377; 28,000</p>
+              <a href="Ladakh.html" class="view-details">VIEW DETAILS</a>
+          </div>
+      </div>
+      <div class="card">
+          <img src="https://www.tripzygo.in/images/blog_images/things_to_do_in_srinagar/1.jpg" alt="Srinagar - Tsomoriri - Manali">
+          <div class="card-details">
+              <h3>Srinagar - Tsomoriri - Manali [With Hanle]</h3>
+              <p>10 Nights 11 Days &#8226; Srinagar</p>
+              <p class="price">&#8377; 42,000</p>
+              <a href="manali.html" class="view-details">VIEW DETAILS</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<br>
+  <div class="newby">
+    <div class="ladakhdesc">
+    <h1>Explore Ladakh</h1>
+    <h2>Experience the thrill of mountain biking in Ladakh.</h2>
+    <br>
+    <a href="Ladakh.html"><button class="ladakhbtn"><h2>Explore</h2></button></a>
+  </div>
+  </div>
+<br><hr class="hrline">
+<div class="aboutus" id="aboutpage">
+  <h1>About <span id="uscolor">Us</span></h1>
+  
+          </div>
+
+        <div class="page_two">
+          <div class="image_two my-element my-element.show" > <img src="images/2ndbike.png" alt=""></div>
+          <div class="description"><h2><span id="onlyheading">Après Bike Fun: </span>Relax and unwind after your adventure with delicious meals, campfire stories, and camaraderie with your fellow riders.
+           <br><br><span id="onlyheading"> Support Vehicle: </span>Never worry about a flat tire slowing you down. Our support vehicle will be there to assist with any mechanical issues.
+           <br><br> <span id="onlyheading">Local Immersion: </span>We integrate stops at charming mountain towns, local restaurants featuring regional cuisine, and scenic viewpoints to give you a taste of the mountain culture.
+            Ready to explore by bike?</h2></div>
+        </div>
+
+        <br><br>
+       </a>
+
+
+
+       <hr class="hrline"><br>
+
+       <div class="tripsection" id="tripspage">
+        <h1><span id="uscolor">Recent</span> trips</h1>
+                </div>
+        
+        
+        <div class="containertour">
+          <div class="grow "  ><a href="manali.html"><img src="images/trips/manali.jpg" alt=""><h2>Manali-Srinagar</h2></a> </div>
+          <div class="grow"><a href="Ladakh.html"><img src="images/trips/ladakh.jpg" alt=""> <H2>LADAKH</H2></a></div>
+          <div class="grow"><a href="Goa.html"> <img src="images/trips/goa.jpg" alt=""><H2>GOA</H2></a></div>
+        
+        </div>
+        <br>
+        <div class="containertour">
+          <div class="grow" ><a href="manali.html"> <img src="images/trips/leh.jpg" alt=""><h2>LEH</h2></a></div>
+          <div class="grow"> <a href="manali.html"><img src="images/trips/RISHI.png" alt=""><H2>RISHIKESH</H2></a></div>
+          <div class="grow"><a href="manali.html"><img src="images/trips/mussori.png" alt=""> <H2>MUSSORIE</H2></a></div>
+        </div>
+       
+<br><br><br>
+<hr class="hrline"><br>
+<div class="aboutus ">
+  <h1> <span id="uscolor">Adventures</span></h1>
+</div>
+<div class="page3">
+  <div class="mapdescription"><h2>
+    Conquer the Rockies: Traverse majestic mountain passes, navigate thrilling downhill trails, and experience the breathtaking beauty of the Rocky Mountains.
+  <br>Alpine Adventure in the Alps: Explore charming Swiss villages, climb challenging switchbacks, and take in panoramic views of the majestic Alps.
+   <br>Epic Trails of himalyas: Ride through stunning forests, alongside crystal-clear lakes, and conquer diverse terrains in the adventure capital of the world.
+    <br>We also offer custom-designed tours, so if you have a dream mountain bike destination in mind, let us know and we'll make it a reality!<h2></div>
+  <div class="image3 grow1 grow1.show"><img src="images/location.png" alt=""></div>
+</div>
+<hr class="hrline">
+<br>
+<div class="anicolor">
+<h1 style="text-align: center;padding-top: 3%; font-size: 3rem; margin-top: 2%;">What you will Get </h1>
+  <div class="centerdiv" id="over">
+    
+    <div class="text1"> <img src="images/prestige.png" alt=""><h2>Expert guides</h2><br>Our team is comprised of passionate and certified mountain bike guides who know the trails like the back of their hands. They'll ensure your safety and show you the hidden gems and best singletrack routes.
+    </div>
+     <div class="text2"><img src="images/itinerary.png" alt=""><h2>Trip Logistics</h2><br>We handle all the logistics so you can focus on enjoying the ride. This includes accommodation, meals, bike rentals (including e-bikes!), transportation, and permits.</div>
+     <div class="text3"><img src="images/txt.png" alt=""><h2>Tailored Experiences</h2><br>We offer a variety of tours to suit all skill levels, from beginner-friendly rides with stunning scenery to heart-pounding downhill adventures for seasoned riders.</div>
+  </div>
+</div>
+<br><br>
+<div class="form-container">
+  <div class="header">
+      <h1>LET'S GET IN TOUCH</h1>
+      <hr>
+  </div>
+  <form class="contact">
+      <div class="row">
+          <input type="text" name="first-name" placeholder="First Name">
+          <input type="text" name="last-name" placeholder="Last Name">
+      </div>
+      <div class="row">
+          <input type="text" name="contact-number" placeholder="Contact Number">
+          <input type="email" name="email" placeholder="Email Address">
+      </div>
+      <div class="row">
+          <input type="text" name="company" placeholder="Company/Organization">
+          <input type="text" name="country" placeholder="Country">
+      </div>
+      <div class="row">
+          <textarea name="project-description" placeholder="Describe "></textarea>
+      </div>
+      <button id="but" type="submit">SUBMIT MESSAGE</button>
+  </form>
+ 
+</div>
+
+
+<footer>
+  <div class="containerfooter">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h2>Customer Service</h2>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Know more</a></li>
+          <li><a href="#">Return & Refunds</a></li>
+        </ul>      </div>
+
+      <div class="footer-col">
+        <h2>Explore More</h2>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">More about Rides</a></li>
+          <li><a href="#"> Services</a></li>
+          <li><a href="#">Promotions</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h2>Get in Touch</h2>
+        <ul>
+          <li><a href="tel:+1234567890">123-456-7890</a></li>
+          <li><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+        </ul>
+        <a href="#" class="live-chat"><i class="fas fa-comment"></i> Live Chat</a>
+      </div>
+      <div class="footer-col">
+        <h2>Stay Inspired</h2>
+        <form action="#">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2024 Azeem Ansari</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Trips.', '&amp; ,Adventures.'],
+      typeSpeed: 100,
+    });
+   
+
+
+// Get the element to animate
+const element = document.querySelector('.my-element');
+
+// Define the options for the Intersection Observer
+const options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5
+};
+
+// Create a new Intersection Observer
+const observer = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    // If element is in viewport, add the 'show' class to trigger the animation
+    if (entry.isIntersecting) {
+      element.classList.add('show');
+    }
+    else {
+      element.classList.remove('show');
+    }
+  });
+}, options);
+
+// Start observing the element
+observer.observe(element);
+
+
+    
+  </script>
+
+
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+  
+</body>
+
+</body>
+</html>
